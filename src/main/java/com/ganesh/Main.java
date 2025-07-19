@@ -20,5 +20,8 @@ public class Main {
 
         int difference = myCalc.subtract(10, 4);
         System.out.println("Difference of 10 and 4 is: " + difference);
+
+        int product = myCalc.multiply(6, 7);
+        System.out.println("Product of 6 and 7 is: " + product);
     }
 }
