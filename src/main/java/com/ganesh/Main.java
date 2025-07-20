@@ -24,5 +24,8 @@ public class Main {
         int product = myCalc.multiply(6, 7);
         System.out.println("Product of 6 and 7 is: " + product);
 
+        double quotient = myCalc.divide(20, 4);
+        System.out.println("Quotient of 20 and 4 is: " + quotient);
+
     }
 }
