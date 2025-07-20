@@ -23,6 +23,11 @@ pipeline {
                 sh 'mvn install'
             }
         }
+        stage('Build Success') {
+            steps {
+                echo 'Build was successful!'
+            }
+        }
         stage('Test') {
             steps {
                 echo 'Testing...'
